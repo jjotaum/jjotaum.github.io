@@ -1,0 +1,8 @@
+body {
+    min-height: 100vh;
+    padding: 0;
+}
+
+#rounded-button {
+    border-radius: 45px;
+}
