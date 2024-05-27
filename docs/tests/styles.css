@@ -1,0 +1,166 @@
+/* Importing Reddit Mono font */
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono&display=swap");
+
+body {
+    font-family: "Reddit Mono", monospace;
+    margin: 0;
+    padding: 0;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 20px;
+    align-content: center;
+    max-width: 800px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: var(--header-bg);
+    color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: var(--header-link-color);
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--social-link-color);
+    transition: color 0.3s;
+}
+
+#featured-project {
+    width: 100%;
+    min-width: 300px;
+}
+
+#featured-project-container {
+    width: 100%;
+}
+
+.featured-project-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    min-width: 300px;
+    padding: 20px;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featured-project-card img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 20px;
+}
+
+.featured-project-card * {
+    color: inherit;
+}
+
+#projects {
+    width: 100%;
+    min-width: 300px;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 300px;
+    margin-bottom: 40px;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-card * {
+    color: inherit;
+}
+
+.project-card .icon {
+    align-self: flex-end;
+    width: 24px;
+    height: 24px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--header-bg);
+    color: var(--header-color);
+    transition:
+        background-color 0.3s,
+        color 0.3s;
+}
+
+/* Light theme variables */
+:root {
+    --header-bg: #f0f0f0;
+    --header-color: #333;
+    --header-link-color: #333;
+    --social-link-color: #0077b5; /* LinkedIn Blue */
+    --card-bg: #f0f0f0;
+    --card-text-color: #555;
+}
+
+/* Dark theme variables */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-bg: #333;
+        --header-color: #f0f0f0;
+        --header-link-color: #f0f0f0;
+        --social-link-color: #1da1f2; /* Twitter Blue */
+        --card-bg: #444;
+        --card-text-color: #ddd;
+    }
+}
