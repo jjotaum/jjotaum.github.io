@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
             name="description"
             content="Apple platforms developer since 2012."
@@ -14,88 +13,147 @@
         />
         <meta name="author" content="Jota Uribe" />
         <title>Jota Uribe | iOS Developer Portfolio</title>
-
-        <!-- SEO Meta Tags -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="css/styles.css" />
-        <!-- Google Fonts: Red Hat Mono -->
-        <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@400;700&display=swap" rel="stylesheet">
-
     </head>
-
     <body>
-        <!-- Header -->
-        <header>
-            <div class="logo">@jjotaum</div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#featured-project">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <!-- Theme Toggle Switch -->
-                    <div class="theme-toggle-container" hidden="true">
-                        <label class="theme-switch">
-                            <input
-                                type="checkbox"
-                                id="theme-toggle"
-                                aria-label="Toggle Theme"
-                            />
-                            <span class="slider"></span>
-                        </label>
-                    </div>
-                </ul>
-            </nav>
+        <header class="fade-in">
+            <h1>@jjotaum</h1>
+            <p>Apple Platforms Developer since 2012.</p>
         </header>
-
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div id="hero-content" class="hero-content">
-                <img
-                    id="hero-image"
-                    src=""
-                    alt="jjotaum´s profile image"
-                    class="hero-image"
-                />
-                <h1 id="hero-title"></h1>
-                <p id="hero-description"></p>
-                <a href="#projects" class="cta-btn">Go to My Work</a>
-            </div>
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="img/profile.jpg" />
+            <p>
+                Hi! 👋 I'm Jota Uribe, An Apple platforms developer, Worked on
+                several high top companies Apple platforms apps, published some
+                open source utilities for Developers & currently working on my
+                own apps.
+            </p>
         </section>
 
-        <!-- Featured Project Section -->
-        <section id="featured-project" class="featured-project">
-            <h2>My Work</h2>
-            <div id="featured-project-content" class="featured-project-content">
-            </div>
+        <section class="fade-in">
+            <h2>Published Apps</h2>
+            <div class="project">
+                <div class="project-header">
+                    <img
+                        src="img/projects/chroma.png"
+                        alt="Project 1"
+                        class="project-icon"
+                    />
+                    <h3>Chroma - Palette Generator</h3>
+                </div>
+                <p>
+                    Unleash your creativity with Chroma! Create stunning color
+                    combinations in seconds. Whether you're a designer,
+                    developer, or artist, Chroma offers an intuitive and
+                    powerful toolset to create stunning color palettes
+                    effortlessly.
+                </p>
+                <p>
+                    <a
+                        href="https://apps.apple.com/app/chroma-palette-generator/id6469060893"
+                        ><img
+                            src="img/app_store_button.png"
+                            class="appstore-image"
+                    /></a>
+                </p>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects">
-            <div id="projects-content" class="project-grid">
-                <!-- Project content will be dynamically loaded here -->
+        <section class="fade-in">
+            <h2>Developer Tools</h2>
+            <div class="project">
+                <div class="project-header">
+                    <img
+                        src="img/projects/library.png"
+                        alt="AmuseKit"
+                        class="project-image"
+                    />
+                    <h3>AmuseKit</h3>
+                </div>
+                <p>
+                    A swift package to facilitate Apple Music Api integration
+                    for iOS, MacOS, tvOS & watchOS projects.
+                </p>
+                <p>
+                    <a href="https://github.com/jjotaum/AmuseKit">GitHub</a>
+                </p>
             </div>
+            <div class="project">
+                <div class="project-header">
+                    <img
+                        src="img/projects/console.png"
+                        alt="ChromaCLI"
+                        class="project-image"
+                    />
+                    <h3>ChromaCLI</h3>
+                </div>
+                <p>
+                    Xcode Assets Macros alternative CLI to automatically
+                    generate static properties corresponding to color assets on
+                    SwiftUI, UIKit or AppKIt projects.
+                </p>
+                <p>
+                    <a href="https://github.com/jjotaum/ChromaCLI">GitHub</a>
+                </p>
+            </div>
+            <div class="project">
+                <div class="project-header">
+                    <img
+                        src="img/projects/library.png"
+                        alt="Caffeine"
+                        class="project-image"
+                    />
+                    <h3>Caffeine</h3>
+                </div>
+                <p>
+                    A collection of reusable logic to boost Apple platform apps
+                    development process.
+                </p>
+                <p>
+                    <a href="https://github.com/jjotaum/Caffeine">GitHub</a>
+                </p>
+            </div>
+            <div class="project">
+                <div class="project-header">
+                    <img
+                        src="img/projects/console.png"
+                        alt="SwiftyTree"
+                        class="project-image"
+                    />
+                    <h3>SwiftyTree</h3>
+                </div>
+                <p>
+                    A command like tool to generate Tree representation from a
+                    given directory path
+                </p>
+                <p>
+                    <a href="https://github.com/jjotaum/SwiftyTree">GitHub</a>
+                </p>
+            </div>
+        </section>
+        <section class="fade-in">
+            <h2>Contact</h2>
+            <p>
+                Twitter:
+                <a href="https://twitter.com/jjotaum" target="_blank"
+                    >@jjotaum</a
+                >
+            </p>
+            <p>
+                GitHub:
+                <a href="https://github.com/jjotaum" target="_blank"
+                    >github.com/jjotaum</a
+                >
+            </p>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about">
-            <div id="about-content" class="about-content">
-                <h2 id="about-title"></h2>
-                <p id="about-description"></p>
-            </div>
-        </section>
-        <!-- Skills Section -->
-        <section id="skills" class="skills">
-            <h2>My Skills</h2>
-            <ul id="skills-content">
-                <!-- Skills content will be dynamically loaded here -->
-            </ul>
-        </section>
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2024 Jota Uribe. All Rights Reserved.</p>
+        <footer class="fade-in">
+            <p>&copy; 2025 Jota Uribe. All rights reserved.</p>
         </footer>
-
-        <!-- JavaScript -->
-        <script src="src/scripts.js"></script>
     </body>
 </html>
