@@ -89,6 +89,7 @@ h3 {
 
 .project-icon {
     height: 100px;
+    border-radius: 20px;
     object-fit: cover;
 }
 
