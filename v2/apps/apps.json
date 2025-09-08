@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Chroma: Palette Manager",
+    "subtitle": "MacOS",
+    "description": "Unleash your creativity with Chroma—the ultimate tool for creating stunning color combinations in seconds. Whether you're a designer, developer, or artist, Chroma provides an intuitive and powerful toolset to craft beautiful palettes effortlessly.",
+    "image": "images/chroma.png",
+    "link": "https://apps.apple.com/app/chroma-palette-generator/id6469060893",
+    "privacy": "chroma"
+  },
+  {
+    "title": "Amuse: Music Player",
+    "subtitle": "iOS, iPadOS",
+    "description": "Rediscover the pure joy of your personal music collection with Amuse, the ultimate local music player crafted with passion for true music enthusiasts. No subscriptions, no ads—just your music, your way.",
+    "image": "images/amuse.png",
+    "link": "https://apps.apple.com/us/app/amuse-music-reimagined/id1610874968",
+    "privacy": "amuse"
+  }
+]
