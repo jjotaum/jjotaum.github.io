@@ -6,19 +6,32 @@ The source code for my personal portfolio website.
 ```
 ├── README.md
 ├── docs
+│   ├── 404.html
+│   ├── apps
+│   │   └── apps.json
+│   ├── apps.html
+│   ├── blog.html
 │   ├── css
-│   │   └── styles.css
-│   ├── img
+│   │   └── style.css
+│   ├── images
+│   │   ├── amuse.png
 │   │   ├── app_store_button.png
-│   │   ├── profile.jpg
-│   │   ├── projects
-│   │   │   ├── amuse.png
-│   │   │   ├── chroma.png
-│   │   │   ├── console.png
-│   │   │   ├── favicon.ico
-│   │   │   └── library.png
+│   │   ├── chroma.png
+│   │   ├── favicon.ico
+│   │   └── profile.jpg
 │   ├── index.html
+│   ├── js
+│   │   ├── apps.js
+│   │   ├── footer.js
+│   │   ├── posts.js
+│   │   ├── search-toggle.js
+│   │   └── theme.js
+│   ├── post.html
+│   ├── posts
+│   │   ├── 2025-09-08.md
+│   │   └── posts.json
 │   ├── privacy
-│   │   ├── amuse.html
-│   │   └── chroma.html
+│   │   ├── amuse.md
+│   │   └── chroma.md
+│   └── privacy.html
 ```

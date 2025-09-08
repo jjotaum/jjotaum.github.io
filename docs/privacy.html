@@ -42,20 +42,11 @@
                 ></button>
             </div>
         </header>
-        <main>
-            <h1>Hey there! 👋</h1>
 
-            <div class="avatar-wrapper">
-                <img src="images/profile.jpg" alt="Profile" class="avatar" />
-            </div>
-            <p>
-                I’m Jota Uribe — an Apple platforms developer with a passion for crafting delightful apps.
-                I’ve had the chance to work with several high top companies, released & collaborate with a few open-source tools for fellow devs, and now I’m building my own apps.
-            </p>
-            <h2>Wanna keep in contact?</h2>
-            <p>Go check my <a href="https://github.com/jjotaum" target="_blank" rel="noopener">GitHub</a> account or follow me on <a href="https://twitter.com/jjotaum" target="_blank" rel="noopener">Twitter</a>.
-            </p>
+        <main>
+            <article id="content"></article>
         </main>
+
         <footer class="site-footer">
             <div class="container">
                 <p>
@@ -64,7 +55,17 @@
                 </p>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="js/theme.js"></script>
         <script src="js/footer.js"></script>
+        <script>
+            const app = new URLSearchParams(location.search).get("app");
+            fetch(`privacy/${app}.md`)
+                .then((res) => res.text())
+                .then((md) => {
+                    document.getElementById("content").innerHTML =
+                        marked.parse(md);
+                });
+        </script>
     </body>
 </html>
