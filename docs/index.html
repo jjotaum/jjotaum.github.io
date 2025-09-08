@@ -1,185 +1,70 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Apple platforms developer since 2012."
-        />
-        <meta
-            name="keywords"
-            content="iOS Developer, Swift, iOS apps, mobile development, app portfolio, app design, Apple Developer"
-        />
-        <meta name="author" content="Jota Uribe" />
-        <title>Jota Uribe | iOS Developer Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+        name="description"
+        content="Apple platforms developer since 2012."
+    />
+    <meta
+        name="keywords"
+        content="iOS Developer, Swift, iOS apps, mobile development, app portfolio, app design, Apple Developer"
+    />
+    <meta name="author" content="Jota Uribe" />
+    <title>Jota Uribe | iOS Developer Portfolio</title>
         <link
-            href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <header class="fade-in">
-            <h1>@jjotaum</h1>
-            <p>Apple Platforms Developer since 2012.</p>
+        <header class="site-header">
+            <div class="container">
+                <div class="site-title"><a href="index.html">@jjotaum</a></div>
+                <nav class="site-nav">
+                    <a href="index.html">Home</a>
+                    <a href="apps.html">Apps</a>
+                    <a href="blog.html">Blog</a>
+                </nav>
+                <button
+                    id="theme-toggle"
+                    class="theme-toggle"
+                    aria-label="Toggle theme"
+                ></button>
+            </div>
         </header>
-        <section class="about">
-            <h2>About Me</h2>
-            <img src="img/profile.jpg" />
-            <p>
-                Hi! 👋 I'm Jota Uribe, An Apple platforms developer, Worked on
-                several high top companies Apple platforms apps, published some
-                open source utilities for Developers & currently working on my
-                own apps.
-            </p>
-        </section>
+        <main>
+            <h1>Hey there! 👋</h1>
 
-        <section class="fade-in">
-            <h2>Published Apps</h2>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/amuse.png"
-                        alt="Project 1"
-                        class="project-icon"
-                    />
-                    <h3>Amuse: Music Player</h3>
-                </div>
-                <p>
-                    Rediscover the pure joy of your personal music collection
-                    with Amuse, the ultimate local music player crafted with
-                    passion for true music enthusiasts. No subscriptions, no
-                    ads—just your music, your way.
-                </p>
-                <p>Platform: iOS</p>
-                <p>
-                    <a
-                        href="https://apps.apple.com/us/app/amuse-music-reimagined/id1610874968"
-                        ><img
-                            src="img/app_store_button.png"
-                            class="appstore-image"
-                    /></a>
-                </p>
+            <div class="avatar-wrapper">
+                <img src="images/profile.jpg" alt="Profile" class="avatar" />
             </div>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/chroma.png"
-                        alt="Project 1"
-                        class="project-icon"
-                    />
-                    <h3>Chroma: Palette Manager</h3>
-                </div>
-                <p>
-                    Unleash your creativity with Chroma—the ultimate tool for
-                    creating stunning color combinations in seconds. Whether
-                    you're a designer, developer, or artist, Chroma provides an
-                    intuitive and powerful toolset to craft beautiful palettes
-                    effortlessly.
-                </p>
-                <p>Platform: macOS</p>
-                <p>
-                    <a
-                        href="https://apps.apple.com/app/chroma-palette-generator/id6469060893"
-                        ><img
-                            src="img/app_store_button.png"
-                            class="appstore-image"
-                    /></a>
-                </p>
-            </div>
-        </section>
-
-        <section class="fade-in">
-            <h2>Developer Tools</h2>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/library.png"
-                        alt="AmuseKit"
-                        class="project-image"
-                    />
-                    <h3>AmuseKit</h3>
-                </div>
-                <p>
-                    A swift package to facilitate Apple Music Api integration
-                    for iOS, MacOS, tvOS & watchOS projects.
-                </p>
-                <p>
-                    <a href="https://github.com/jjotaum/AmuseKit">GitHub</a>
-                </p>
-            </div>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/console.png"
-                        alt="ChromaCLI"
-                        class="project-image"
-                    />
-                    <h3>ChromaCLI</h3>
-                </div>
-                <p>
-                    Xcode Assets Macros alternative CLI to automatically
-                    generate static properties corresponding to color assets on
-                    SwiftUI, UIKit or AppKIt projects.
-                </p>
-                <p>
-                    <a href="https://github.com/jjotaum/ChromaCLI">GitHub</a>
-                </p>
-            </div>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/library.png"
-                        alt="Caffeine"
-                        class="project-image"
-                    />
-                    <h3>Caffeine</h3>
-                </div>
-                <p>
-                    A collection of reusable logic to boost Apple platform apps
-                    development process.
-                </p>
-                <p>
-                    <a href="https://github.com/jjotaum/Caffeine">GitHub</a>
-                </p>
-            </div>
-            <div class="project">
-                <div class="project-header">
-                    <img
-                        src="img/projects/console.png"
-                        alt="SwiftyTree"
-                        class="project-image"
-                    />
-                    <h3>SwiftyTree</h3>
-                </div>
-                <p>
-                    A command like tool to generate Tree representation from a
-                    given directory path
-                </p>
-                <p>
-                    <a href="https://github.com/jjotaum/SwiftyTree">GitHub</a>
-                </p>
-            </div>
-        </section>
-        <section class="fade-in">
-            <h2>Contact</h2>
             <p>
-                Twitter:
-                <a href="https://twitter.com/jjotaum" target="_blank"
-                    >@jjotaum</a
-                >
+                I’m Jota Uribe — an Apple platforms developer with a passion for crafting delightful apps.
+                I’ve had the chance to work with several high top companies, released & collaborate with a few open-source tools for fellow devs, and now I’m building my own apps.
             </p>
-            <p>
-                GitHub:
-                <a href="https://github.com/jjotaum" target="_blank"
-                    >github.com/jjotaum</a
-                >
+            <h2>Wanna keep in contact?</h2>
+            <p>Go check my <a href="https://github.com/jjotaum" target="_blank" rel="noopener">GitHub</a> account or follow me on <a href="https://twitter.com/jjotaum" target="_blank" rel="noopener">Twitter</a>.
             </p>
-        </section>
-
-        <footer class="fade-in">
-            <p>&copy; 2025 Jota Uribe. All rights reserved.</p>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <p>
+                    &copy; <span id="year"></span> Jota Uribe. All rights
+                    reserved.
+                </p>
+            </div>
         </footer>
+        <script src="js/theme.js"></script>
+        <script src="js/footer.js"></script>
     </body>
 </html>
