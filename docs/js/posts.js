@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const formattedDate = formatDate(post.date);
 
       li.innerHTML = `
-        <a class="entry-title" href="post.html?post=${post.filename}">${post.title}</a>
+        <h2><a class="entry-title" href="post.html?post=${post.filename}">${post.title}</a></h2>
         <small>${formattedDate} · ${readTime}</small>
         <p>${preview}</p>
         ${

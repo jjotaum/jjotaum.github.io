@@ -9,13 +9,15 @@ fetch("apps/apps.json")
 
       card.innerHTML = `
         <div class="app-image">
-          <img src="${app.image}" alt="${app.title}" />
+          <img src="${app.image}" alt="${app.title}"/>
         </div>
         <div class="app-content">
-        <a class="entry-title" href="${app.link}" target="_blank" rel="noopener noreferrer">${app.title}</a>
+        <h2><a href="${app.link}" target="_blank" rel="noopener noreferrer">${app.title}</a></h2>
           ${app.subtitle ? `<small class="app-subtitle">${app.subtitle}</small>` : ""}
           <p>${app.description}</p>
-          ${app.privacy ? `<p><a class="privacy-link" href="privacy.html?app=${app.privacy}">Privacy Policy</a></p>` : ""}
+          <p>
+          ${app.privacy ? `<a class="app-link" href="privacy.html?app=${app.privacy}">Privacy Policy</a>` : ""}
+          </p>
         </div>
       `;
 

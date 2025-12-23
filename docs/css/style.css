@@ -1,7 +1,7 @@
 /* Base Typography */
 body {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 16px;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
     color: rgb(30, 30, 30);
     max-width: 1000px;
     margin: 0 auto;
@@ -16,9 +16,13 @@ body {
 
 /* Link Styling */
 a {
-    color: rgb(27, 112, 222);
+    color: rgb(88, 177, 159);
     text-decoration: none;
     transition: color 0.2s ease;
+}
+
+[data-theme="dark"] a {
+    color: rgb(85, 230, 193);
 }
 
 a:hover {
@@ -42,21 +46,18 @@ h1 {
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
     font-weight: 200;
-    margin-bottom: 1;
 }
 
 h2 {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     font-weight: 200;
-    margin-bottom: 0.75rem;
 }
 
 h3 {
     font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
-    margin-bottom: 0.5rem;
 }
 
 img[src*="#blog_img"] {
@@ -217,6 +218,7 @@ img[src*="#blog_img"] {
 .entry-title {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .blog-entry:hover {
@@ -330,12 +332,20 @@ img[src*="#blog_img"] {
     margin-bottom: 0.75rem;
 }
 
+.app-link {
+    align-content: center;
+}
+
+.app-link img {
+    max-height: 32px;
+    margin-right: 1rem;
+}
+
 [data-theme="dark"] .app-subtitle {
     color: #bbbbbb;
 }
 
 .app-content p {
-    font-size: 0.9rem;
     color: #444;
 }
 
@@ -359,7 +369,7 @@ img[src*="#blog_img"] {
 .site-footer .container {
     margin: 0 auto;
     padding: 0 1rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans Mono", monospace;
 }
 
 /* Code Blocks */
@@ -396,4 +406,40 @@ pre code {
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Posts Article */
+
+article {
+    background: rgb(242, 242, 242);
+    border-radius: 24px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+[data-theme="dark"] article {
+    background: rgb(41, 41, 41);
+    color: #f0f0f0;
+}
+
+article h1,
+article h2,
+article h3 {
+    color: rgb(88, 177, 159);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+[data-theme="dark"] article h1,
+[data-theme="dark"] article h2,
+[data-theme="dark"] article h3 {
+    color: rgb(85, 230, 193);
+}
+
+article li {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
