@@ -420,6 +420,11 @@ article {
     margin-bottom: 1rem;
 }
 
+article img {
+    display: block;
+    max-width: 100%;
+}
+
 [data-theme="dark"] article {
     background: rgb(41, 41, 41);
     color: #f0f0f0;
