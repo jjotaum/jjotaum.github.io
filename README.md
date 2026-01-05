@@ -18,6 +18,8 @@ The source code for my personal portfolio website.
 │   │   ├── app_store_button.png
 │   │   ├── chroma.png
 │   │   ├── favicon.ico
+│   │   ├── pictures
+│   │   │   └── nemo.jpg
 │   │   └── profile.jpg
 │   ├── index.html
 │   ├── js
@@ -29,6 +31,7 @@ The source code for my personal portfolio website.
 │   ├── post.html
 │   ├── posts
 │   │   ├── 2025-09-08.md
+│   │   ├── 2026-01-04.md
 │   │   └── posts.json
 │   ├── privacy
 │   │   ├── amuse.md
