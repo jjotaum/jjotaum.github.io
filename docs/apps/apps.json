@@ -1,18 +1,26 @@
 [
   {
-    "title": "Chroma: Palette Manager",
-    "subtitle": "MacOS",
-    "description": "Unleash your creativity with Chroma—the ultimate tool for creating stunning color combinations in seconds. Whether you're a designer, developer, or artist, Chroma provides an intuitive and powerful toolset to craft beautiful palettes effortlessly.",
-    "image": "images/chroma.png",
-    "link": "https://apps.apple.com/app/chroma-palette-generator/id6469060893",
-    "privacy": "chroma"
-  },
-  {
     "title": "Amuse: Music Player",
     "subtitle": "iOS, iPadOS",
     "description": "Rediscover the pure joy of your personal music collection with Amuse, the ultimate local music player crafted with passion for true music enthusiasts. No subscriptions, no ads—just your music, your way.",
     "image": "images/amuse.png",
     "link": "https://apps.apple.com/us/app/amuse-music-reimagined/id1610874968",
     "privacy": "amuse"
+  },
+  {
+    "title": "Bolt: Network Speed Test",
+    "subtitle": "MacOS",
+    "description": "Bolt is a fast and beautifully simple tool designed to measure your internet performance without unnecessary complexity. Built with 100% native code, it delivers accurate results while remaining extremely lightweight and efficient.",
+    "image": "images/bolt.png",
+    "link": "https://apps.apple.com/us/app/bolt-network-speed-test/id6760240650",
+    "privacy": "bolt"
+  },
+  {
+    "title": "Chroma: Palette Manager",
+    "subtitle": "MacOS",
+    "description": "Unleash your creativity with Chroma—the ultimate tool for creating stunning color combinations in seconds. Whether you're a designer, developer, or artist, Chroma provides an intuitive and powerful toolset to craft beautiful palettes effortlessly.",
+    "image": "images/chroma.png",
+    "link": "https://apps.apple.com/app/chroma-palette-generator/id6469060893",
+    "privacy": "chroma"
   }
 ]
