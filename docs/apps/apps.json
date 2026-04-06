@@ -16,6 +16,14 @@
     "privacy": "bolt"
   },
   {
+    "title": "KeeperMate",
+    "subtitle": "iOS",
+    "description": "A delightful space for your links. Save and revisit your favorite URLs in a clean, calm interface designed to feel effortless every time you use it. No clutter, no distractions, just a smooth and simple way to keep everything you care about close at hand.",
+    "image": "images/keepermate.png",
+    "link": "https://apps.apple.com/us/app/keepermate/id6744548918",
+    "privacy": "keepermate"
+  },
+  {
     "title": "Chroma: Palette Manager",
     "subtitle": "MacOS",
     "description": "Unleash your creativity with Chroma—the ultimate tool for creating stunning color combinations in seconds. Whether you're a designer, developer, or artist, Chroma provides an intuitive and powerful toolset to craft beautiful palettes effortlessly.",
